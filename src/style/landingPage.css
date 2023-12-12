@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&family=Montserrat:wght@700&display=swap");
+
+.myBG {
+  min-height: 200vh !important;
+  background-color: #127a7d;
+  position: relative;
+}
+.nav-head {
+  padding-left: 1rem !important;
+}
+.logo {
+  width: 130px;
+  height: 120px;
+  padding-top: -10px;
+}
+
+.nav-left {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
+.tentang {
+  color: #ffffff !important;
+}
+
+.tentang:hover {
+  font-weight: 800 !important;
+}
+
+.cekberita {
+  color: #ffffff !important;
+  padding-left: 20px !important;
+}
+
+.cekberita:hover {
+  font-weight: 800 !important;
+}
+
+/* Navbar Right*/
+
+.lapor-bg {
+  width: 15rem !important;
+  height: 3.5rem !important;
+  background-color: white !important;
+  border-radius: 1rem !important;
+  align-items: center !important;
+}
+.lapor-bg:hover {
+  background-color: #f5f5f5 !important;
+  color: white !important;
+}
+
+.lapor-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  color: #127a7d !important;
+}
+
+/*BODY */
+
+.body-guardian {
+  padding-left: 2rem !important;
+}
+
+.col-left {
+  padding-top: 7rem !important;
+}
+
+.text-bold {
+  color: white;
+  text-align: left;
+  font-family: "Merriweather Sans", "Montserrat" !important;
+  font-weight: 800;
+  font-size: 5rem;
+}
+.indo {
+  margin-top: -2.5rem !important;
+}
+
+.text-thin {
+  color: white;
+  text-align: left;
+  font-family: "Merriweather Sans", "Montserrat" !important;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.perjalanan {
+  margin-top: -0.3rem;
+}
+
+.col-right {
+  margin-top: -14rem !important;
+  margin-left: -5rem !important;
+}
+
+.hp {
+  scale: 0.5;
+}
+
+.wave {
+  margin-top: -11rem !important;
+  height: 3rem !important;
+  justify-content: flex-start;
+}
+.wave2 {
+  height: 3rem !important;
+  justify-content: flex-start;
+  rotate: 180deg;
+}
+
+/*Section 2*/
+.section2-title {
+  margin-top: 3rem !important;
+  font-family: "Merriweather Sans", "Montserrat" !important;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.line-title {
+  margin-top: -0.8rem !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 30px;
+  height: 1rem !important;
+  background-color: #ffffff !important;
+  text-shadow: 2px 2px 4px #ffffff;
+  width: 15rem;
+}
+
+.card-fitur {
+  padding-top: 3rem;
+  padding-left: 16rem;
+}
+
+.fitur1 {
+  border-radius: 2.5rem !important;
+}
+
+.fitur2 {
+  border-radius: 2.5rem !important;
+  margin-left: -6rem !important;
+}
+
+.title-cek {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
+  color: #127a7d !important;
+}
+
+.title-lapor {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
+  color: red !important;
+}
+
+.gr-button {
+  padding-left: 14rem !important;
+}
+
+.indo-bebas {
+  color: white !important;
+  font-family: "Merriweather Sans", "Montserrat" !important;
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+  margin-top: 3rem !important;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  font-weight: medium;
+  margin-top: 9rem !important;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .text-bold {
+    font-size: 4.35rem;
+  }
+  .hp {
+    scale: 0.45;
+  }
+  .section2-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1268px) {
+  .nav-head {
+    padding-left: 1px !important;
+  }
+  .nav-left {
+    font-size: 1.3rem !important;
+  }
+
+  /* Body*/
+
+  .body-guardian {
+    padding-left: 2rem !important;
+  }
+
+  /*BODY */
+  .text-bold {
+    font-size: 3.65rem;
+  }
+  .text-thin {
+    font-size: 1.1rem;
+  }
+  .hp {
+    scale: 0.4;
+  }
+  .card-fitur {
+    padding-top: 3rem;
+    padding-left: 12rem;
+  }
+
+  .fitur1 {
+    border-radius: 2.5rem !important;
+  }
+  .fitur2 {
+    border-radius: 2.5rem !important;
+    margin-left: -6rem !important;
+  }
+}
+
+@media (max-width: 951px) {
+  .nav-head {
+    padding-left: 0rem !important;
+  }
+
+  .nav-left {
+    font-size: 1rem !important;
+    padding-left: 0px !important;
+  }
+
+  .logo {
+    width: 100px !important;
+    height: 90px !important;
+    padding-top: -10px;
+  }
+
+  .tentang {
+    font-size: 1.2rem !important;
+  }
+
+  .cekberita {
+    margin-top: -15px !important;
+    margin-left: -20px !important;
+    font-size: 1.2rem !important;
+  }
+
+  .lapor-bg {
+    width: 7rem !important;
+    height: 2rem !important;
+    background-color: white !important;
+    border-radius: 1rem !important;
+    align-items: center !important;
+  }
+  .lapor-bg:hover {
+    background-color: #f5f5f5 !important;
+    color: white !important;
+  }
+  /* Body*/
+
+  .col-left {
+    padding-top: 0rem !important;
+    margin-left: 0rem;
+  }
+  .col-right {
+    margin-top: -16rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .text-bold {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .text-thin {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .indo {
+    margin-top: -2rem !important;
+  }
+
+  .card-fitur {
+    padding-top: 3rem;
+    padding-left: 0rem;
+  }
+
+  .fitur1 {
+    border-radius: 2.5rem !important;
+  }
+
+  .fitur2 {
+    border-radius: 2.5rem !important;
+    margin-left: 0rem !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .text-bold {
+    font-size: 3.2rem;
+  }
+  .text-thin {
+    font-size: 1rem;
+  }
+  .col-right {
+    margin-left: -7rem !important;
+  }
+  .hp {
+    scale: 0.4;
+  }
+
+  .card-fitur {
+    padding-top: 3rem;
+    padding-left: 8rem;
+  }
+
+  .fitur1 {
+    border-radius: 2.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .fitur2 {
+    border-radius: 2.5rem !important;
+    margin-left: 0rem !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .logo {
+    width: 80px !important;
+    height: 70px !important;
+    padding-top: -10px;
+  }
+  .text-bold {
+    font-size: 2.5rem;
+  }
+  .text-thin {
+    font-size: 0.8rem;
+  }
+  .indo {
+    margin-top: -1rem !important;
+  }
+  .col-right {
+    margin-top: -18rem !important;
+    margin-left: -8rem !important;
+  }
+  .hp {
+    scale: 0.35;
+  }
+  .wave {
+    margin-top: -19rem !important;
+  }
+
+  .card-fitur {
+    padding-top: 3rem;
+    padding-left: 5.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .text-bold {
+    font-size: 2rem;
+  }
+  .text-thin {
+    font-size: 0.8rem;
+  }
+  .col-right {
+    margin-top: -18rem !important;
+    margin-left: -11rem !important;
+  }
+  .hp {
+    scale: 0.35;
+  }
+  .wave {
+    margin-top: -13rem !important;
+  }
+
+  .card-fitur {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+  }
+
+  .section2-title {
+    font-size: 2rem;
+    margin-top: 0.5rem !important;
+  }
+
+  .line-title {
+    margin-top: -0.3rem !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 30px;
+    height: 1rem !important;
+    background-color: #ffffff !important;
+    text-shadow: 2px 2px 4px #ffffff;
+    width: 10rem;
+  }
+}

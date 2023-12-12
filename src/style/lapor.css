@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&family=Montserrat:wght@700&display=swap");
+
+.myFourthBG {
+  min-height: 100vh;
+  background-color: #127a7d;
+}
+.lapor {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  border: 3px solid white;
+  border-radius: 30px;
+  display: flex;
+}
+
+.question-img {
+  width: 450px;
+  height: 450px;
+}
+
+.title-lapor-page {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  font-size: 3rem !important;
+  color: white !important;
+}
+.form-lapor {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.div-email {
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  height: 2.5rem;
+}
+.input-email {
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  height: 100%;
+}
+
+.div-judul {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  height: 2.5rem;
+}
+.input-judul {
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  height: 100%;
+}
+
+.div-link {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  height: 2.5rem;
+}
+.input-link {
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  height: 100%;
+}
+
+.div-jelaskan {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  height: 2.5rem;
+}
+.input-jelaskan {
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  height: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-red {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+
+.wave-page45 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}

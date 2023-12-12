@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;800&family=Montserrat:wght@700&display=swap");
+
+.myThirdBG {
+  min-height: 150vh !important;
+  background-color: #127a7d !important;
+}
+
+/* Navbar */
+/* Navbar Left */
+.nav-head {
+  padding-left: 1rem !important;
+}
+.logo {
+  width: 130px;
+  height: 120px;
+  padding-top: -10px;
+}
+
+.nav-left {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
+.tentang {
+  color: #ffffff !important;
+}
+
+.tentang:hover {
+  font-weight: 800 !important;
+}
+
+.cekberita {
+  color: #ffffff !important;
+  padding-left: 20px !important;
+}
+
+.cekberita:hover {
+  font-weight: 800 !important;
+}
+
+/* Navbar Right*/
+.search-box2 {
+  position: relative;
+  height: 50px;
+  margin-top: 1rem;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid white !important;
+  background-color: white !important;
+  width: 50% !important;
+  margin-left: 10rem !important;
+}
+
+.search2 {
+  margin-left: -1.5px;
+  border: none;
+  border-radius: 20px !important;
+  height: 40px;
+}
+
+.search-box2 form {
+  position: relative;
+  width: 100%;
+}
+
+.search-box2 form input {
+  width: 90%;
+  height: 40px;
+  border: 0;
+  outline: none;
+  padding: 2px 0;
+}
+
+.closing {
+  border-radius: 20px !important;
+}
+
+.dl {
+  width: 50% !important;
+  margin-left: 10rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  display: flex;
+}
+
+.google {
+  width: 50% !important;
+  margin-left: 10rem !important;
+}
+
+.category {
+  margin-right: 3rem !important;
+  color: white;
+  font-weight: 500;
+}
+
+.hoax {
+  height: 30px;
+  width: 10% !important;
+  background-color: red;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  margin-right: 1rem;
+  margin-left: -1rem;
+}
+.hoax2 {
+  height: 30px;
+  width: 10% !important;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  margin-right: 1rem;
+  margin-left: -1rem;
+}
+
+.text-hoax {
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.text-hoax2 {
+  color: #127a7d;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.hate {
+  height: 30px;
+  width: 120px !important;
+  background-color: red;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+}
+
+.hate2 {
+  height: 30px;
+  width: 120px !important;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+}
+
+.text-hate {
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.text-hate2 {
+  color: #127a7d;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.google-body {
+  padding: 1rem !important;
+  border-radius: 10px !important;
+  border: 1px solid white !important;
+}
+
+.line-col2 {
+  display: block;
+  width: 100% !important;
+  height: 0.5px !important;
+  border-radius: 30px;
+  background-color: white !important;
+  margin-bottom: 1rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.border-content-google {
+  margin-bottom: 1rem !important;
+}
+
+.row-title {
+  margin-bottom: 0.7rem !important;
+  display: flex;
+}
+
+.image-content {
+  display: block;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.title-link {
+  display: block;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-left: 0.8rem;
+  color: white !important;
+}
+
+.for-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.block-content-google {
+  text-decoration: none !important;
+}
+
+.font-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.font-title:hover {
+  text-decoration: underline !important;
+}
+
+.paragraph {
+  color: white !important;
+}
+
+.wave-page2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+}
+
+@media (max-width: 400px) {
+  .search-box2 {
+    width: 100% !important;
+    margin-left: 0rem !important;
+  }
+
+  .search-box2 form {
+    position: relative;
+    width: 100%;
+  }
+
+  .search-box2 form input {
+    width: 85%;
+    height: 40px;
+    border: 0;
+    outline: none;
+    padding: 2px 0;
+  }
+
+  .dl {
+    margin-left: 0rem !important;
+    width: 100% !important;
+  }
+
+  .hoax {
+    min-width: 60px !important;
+    margin-left: -2rem !important;
+  }
+
+  .hoax2 {
+    min-width: 60px !important;
+    margin-left: -2rem !important;
+  }
+
+  .google {
+    margin-left: 0rem !important;
+    width: 100% !important;
+  }
+}
